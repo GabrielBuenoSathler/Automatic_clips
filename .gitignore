@@ -1,0 +1,33 @@
+# Segredos e credenciais
+.env
+credentials.json
+token.pickle
+*.pickle
+*.pem
+*.key
+
+# Configs locais
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Testes / cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

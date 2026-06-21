@@ -1,0 +1,23 @@
+[project]
+name = "automatic-clips"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "GabrielBuenoSathler",email = "garouthehumanmonster@protonmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ps (>=0.1.7,<0.2.0)",
+    "google-api-python-client (>=2.100.0)",
+    "google-auth-oauthlib (>=1.2.0)",
+    "google-auth-httplib2 (>=0.2.0)",
+    "dotenv (>=0.9.9,<0.10.0)"
+]
+
+[tool.poetry]
+packages = [{include = "automatic_clips", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
