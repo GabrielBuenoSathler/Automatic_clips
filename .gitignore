@@ -5,7 +5,7 @@ token.pickle
 *.pickle
 *.pem
 *.key
-
+*.mp4
 # Configs locais
 .claude/settings.local.json
 
